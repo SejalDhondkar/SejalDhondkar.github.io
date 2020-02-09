@@ -1,0 +1,166 @@
+
+		body{
+			background-color: black;
+		}
+		h1{
+			text-align: center;
+			color: #ECF0F1;
+			font-size: 50px;
+			font-family: "Verdana", sans-serif;
+			letter-spacing: 10px;
+			text-shadow: 2px 2px 4px #FFFFFF;
+			top: 50%;
+		}
+
+		
+
+		*{
+			box-sizing: border-box;
+		}
+
+		.box{
+			float: left;
+			width: 50%;
+			padding-left: 50px;
+			padding-right: 80px;
+			padding-top: 100px;
+			padding-bottom: 50px;
+			overflow: auto;
+		
+		}
+		.clearfix::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+
+
+
+		p{
+			color: white;
+			font-size: 15px;
+			font-family: "Verdana", sans-serif;
+			overflow: auto;
+			text-align: justify;
+		}
+
+		#panel1, #panel2, #panel3{
+			font-size: 15px;
+  			padding: 20px;
+  			text-align: justify;
+  			background-color: black;
+  			color: white;
+  			margin: auto;
+		}
+
+		.flip{
+			font-size: 40px;
+  			padding: 20px;
+  			text-align: center;
+  			background-color: black;
+  			color: white;
+  			margin: auto;
+  			letter-spacing: 8px;
+			text-shadow: 2px 2px 4px #FFFFFF;
+			cursor: pointer;
+		}
+
+		p.flip : hover{
+			background-color: white;
+		}
+
+		#panel1, #panel2, #panel3 {
+			display: none;
+		}
+
+		div img{
+
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+
+		}
+
+		.text{
+			text-align: center;
+		}
+
+		.end{
+			text-align: center;
+			color: white;
+			font-size: 13px;
+			opacity: 0.8;
+		}
+
+		.contact{
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 100px;
+		}
+
+		.about{
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 100px;
+		
+		}
+
+		/* Here starts the signup page*/
+
+		.whitebox{
+			margin: auto;
+			margin-top: 100px;
+			width: 50%;
+			border: 2px solid gray;
+			padding: 100px 40px;
+			background-color: white;
+			border-radius: 20px;
+			cursor: pointer;
+
+		}
+
+		.whitetext{
+			font-size: 15px;
+			color: black;
+			text-align: center;
+		}
+
+		/* here starts signup page */
+
+		input[type=text], select{
+			width: 100%;
+			padding: 10px 20px;
+			margin: 10px 5px;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			box-sizing: border-box;
+		}
+
+		input[type=submit]{
+			width: 100%;
+			background-color: #BFC9CA;
+			color: white;
+			padding: 15px 20px;
+			margin:  10px 5px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+
+		}
+
+		input[type=submit]:hover{
+			background-color: #839192;
+
+		}
+
+		.forms{
+			width: 50%;
+			margin: auto;
+			margin-top: 80px;
+			border-radius: 10px;
+			background-color: #EAEDED;
+			padding: 25px;
+		}
